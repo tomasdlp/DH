@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.titles {
+    background-color: #c4c4c4;
+    color: #005677;
+}
+
+span {
+    font-weight: bold;
+    /* font-size: 15px; */
+}
+
+span.datospersonales {
+    font-style: italic;
+}
+
+table {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #005677;
+    text-align: center;
+    padding: 11px;
+    margin-top: 164px;
+}
+
+footer span {
+    font-size: 20px;
+    color: white;
+}
