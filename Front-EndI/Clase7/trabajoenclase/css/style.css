@@ -1,0 +1,30 @@
+/* 
+sintaxys(regla de css)
+
+    selector{
+        propiedad: valor;
+    }
+    selecctores
+        Etiqueta
+        clase
+        ID
+    CSS lee el arvhivo de arriba hacia abajo
+ */
+h1 {
+    /* color: rgb(108, 53, 192); */
+    /* 
+    RGB
+    color: rgb(red, green, blue);
+    evalor va desde el 255 
+    Paletas de colores https://colorhunt.co/
+    Hexadecimal 
+    #FFFFFFF
+        Los primeros 2 para rojo, la otra dupla green, ultima dupla azul
+        FF es el valor mas alto
+        00 el menor valor
+     */
+     color: red;
+}
+#texto-unico{
+    background-color: green;
+}
