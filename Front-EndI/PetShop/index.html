@@ -1,37 +1,43 @@
+<!-- https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div>
-            <span>Grandes ofertas en comederos</span>
+            <a href="#">Grandes ofertas en comederos</a>
             <nav>
                 <ul>
-                    <li><a href="">Espanol</a></li>
-                    <li><a href="">ARG$</a>$</li>
+                    <li><a href="">Espanol</a><i class="fa-solid fa-angle-down"></i></li>
+                    <li><a href="">ARG$</a><i class="fa-solid fa-angle-down"></i></li>
                 </ul>
             </nav>
         </div>
-        <div>
+        <div class="menupetshop">
             <img src="./img/Logologo.svg" alt="logo">
             <nav>
                 <ul>
-                    <li><a href="">Categorías</a></li>
-                    <li><a href="">Pets</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Contactanos</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="">Categorías</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="">Pets</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="">Nosotros</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="">Contactanos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section>
-            <img src="./img/banner.png" alt="banner">
+        <section class="banner">
             <div>
                 <div>
                     <span>!Es un placer tenerte aqui!</span>
@@ -45,32 +51,37 @@
             </div>
         </section>
         <section>
-            <img src="./img/pawprint 1patasec1.svg" alt="">
+            <!-- <img src="./img/pawprint 1patasec1.svg" alt=""> -->
+            <i class="fa-solid fa-paw pawdesck"></i>
             <h1>Productos Destacados</h1>
             <ul>
                 <li><a href="">Comederos</a></li>
                 <li><a href="">Accesorios</a></li>
                 <li><a href="">Comida</a></li>
             </ul>
-            <div>
+            <div class="articulos">
                 <img src="./img/churrasquitojuguete.png" alt="JugueteChurras">
-                <h2>Juguete Churrasquito</h2>
-                <span>$150</span>
+                <span>Juguete Churrasquito</span>
+                <span class="price">$150</span>
             </div>
-            <div>
+            <div class="articulos">
                 <img src="./img/comedero.png" alt="Comedero">
-                <h2>Comedero para perro</h2>
-                <span>$250</span>
+                <span>Comedero para perro</span>
+                <span class="price">$250</span>
             </div>
-            <div>
+            <div class="articulos">
                 <img src="./img/Huesito.png" alt="">
-                <h2>Juguete Huesito</h2>
-                <span>$650</span>
+                <span>Juguete Huesito</span>
+                <span class="price">$650</span>
             </div>
         </section>
     </main>
     <footer>
+        <div>
+            <!-- Seccion Iconos Sociales -->
+        </div>
         <span align="center">Todos los derechos reservados</span>
     </footer>
 </body>
+
 </html>
